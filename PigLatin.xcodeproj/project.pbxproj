@@ -12,6 +12,7 @@
 		E242C61819688E1F002B233A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E242C61719688E1F002B233A /* Images.xcassets */; };
 		E242C61B19688E1F002B233A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E242C61919688E1F002B233A /* MainMenu.xib */; };
 		E242C62719688E1F002B233A /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E242C62619688E1F002B233A /* Tests.swift */; };
+		E25A4F271968922600FD710A /* String+PigLatin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25A4F261968922600FD710A /* String+PigLatin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		E242C62019688E1F002B233A /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E242C62519688E1F002B233A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E242C62619688E1F002B233A /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		E25A4F261968922600FD710A /* String+PigLatin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+PigLatin.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				E242C61219688E1F002B233A /* Info.plist */,
 				E242C61319688E1F002B233A /* main.swift */,
 				E242C61519688E1F002B233A /* AppDelegate.swift */,
+				E25A4F261968922600FD710A /* String+PigLatin.swift */,
 				E242C61719688E1F002B233A /* Images.xcassets */,
 				E25A4F2519688F4800FD710A /* Base.lproj */,
 			);
@@ -200,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E25A4F271968922600FD710A /* String+PigLatin.swift in Sources */,
 				E242C61619688E1F002B233A /* AppDelegate.swift in Sources */,
 				E242C61419688E1F002B233A /* main.swift in Sources */,
 			);
